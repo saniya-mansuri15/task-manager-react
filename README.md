@@ -1,6 +1,6 @@
 # Task Manager
 
-Full-stack task management SPA for a **FirstHire Associate Frontend Developer** interview: React (hooks), client-side routing, Fetch API, LocalStorage, and HTML5 drag-and-drop. Backend is Node.js + Express with JWT auth. Data is stored in a local JSON file so you do not need MongoDB.
+Full-stack task management SPA React (hooks), client-side routing, Fetch API, LocalStorage, and HTML5 drag-and-drop. Backend is Node.js + Express with JWT auth. Data is stored in a local JSON file so you do not need MongoDB.
 
 Roles:
 
@@ -93,7 +93,7 @@ Tailwind CSS with `darkMode: "class"`, responsive grids, loading skeletons, and 
 - `GET /api/users` — employees for assignment (admin only)
 - Persistence: `backend/data/db.json` via `utils/store.js`
 
-## Interview talking points
+
 
 - SPA vs multi-page: routing happens in the browser; Express is JSON-only.
 - Why JWT in LocalStorage: simple for a demo; mention XSS as a tradeoff vs httpOnly cookies.
